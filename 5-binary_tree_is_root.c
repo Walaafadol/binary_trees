@@ -12,4 +12,6 @@ if (node == NULL || node->parent != NULL)
 {
 	return (0);
 return (1);
+
+}
 }
