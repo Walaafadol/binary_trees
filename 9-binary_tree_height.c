@@ -19,7 +19,7 @@ else
 if (tree)
 {
 right = tree->right ? 1 + binary_tree_height(tree->right) : 0;
-left = tree->right ? 1 + binary_tree_height(tree->left) : 0;
+left = tree->left ? 1 + binary_tree_height(tree->left) : 0;
 }
 return ((right > left) ? right : left);
 }
